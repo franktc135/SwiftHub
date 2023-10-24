@@ -1,22 +1,22 @@
 import 'package:flutter/material.dart';
 
 
-void main() => runApp(const MyApp());
+void main() => runApp(const UbiMap());
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class UbiMap extends StatelessWidget {
+  const UbiMap ({super.key});
 
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: MyHomePage(),
+      home: UbiCation(),
     );
   }
 }
 
 
-class MyHomePage extends StatelessWidget {
-  const MyHomePage({super.key});
+class UbiCation extends StatelessWidget {
+  const UbiCation({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -34,21 +34,21 @@ class MyHomePage extends StatelessWidget {
         title: const Text('Ubicación de eventos'),
         actions: [
           IconButton(
-            icon: Icon(Icons.message),
+            icon: Icon(Icons.add_comment_outlined),
             onPressed: () {
-              // Acciones para mensajes
+              
             },
           ),
           IconButton(
-            icon: Icon(Icons.add_circle_sharp),
+            icon: Icon(Icons.mark_as_unread_rounded),
             onPressed: () {
-              // Acciones para conversaciones
+              
             },
           ),
           IconButton(
             icon: Icon(Icons.add_location_alt_sharp),
             onPressed: () {
-              // Acciones para contactos
+              
             },
           ),
         ],
