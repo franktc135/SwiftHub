@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-
-void main() => runApp(const MaterialApp(home: MyApp(), debugShowCheckedModeBanner:false));
+void main() => runApp(const MaterialApp(home: MyApp(), 
+debugShowCheckedModeBanner:false));
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
